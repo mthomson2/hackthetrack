@@ -55,7 +55,7 @@ $(function() {
     var params = {
         "api_key": "6b700f7ea9db408e9745c207da7ca827",
         // Request parameters
-        "RouteID": preferredRouteID,
+        "RouteID": prefRouteID,
     };
     $.ajax({
         url: "https://api.wmata.com/Incidents.svc/json/BusIncidents?"+$.param(params),
